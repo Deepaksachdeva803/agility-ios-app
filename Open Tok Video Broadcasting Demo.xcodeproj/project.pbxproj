@@ -7,13 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6186EC851B62443F001AE2E4 /* CreateSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6186EC841B62443F001AE2E4 /* CreateSessionViewController.m */; };
 		619D73931B4BC4E0001B0B01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 619D73921B4BC4E0001B0B01 /* main.m */; };
 		619D73961B4BC4E0001B0B01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 619D73951B4BC4E0001B0B01 /* AppDelegate.m */; };
-		619D73991B4BC4E0001B0B01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 619D73981B4BC4E0001B0B01 /* ViewController.m */; };
+		619D73991B4BC4E0001B0B01 /* StreamListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 619D73981B4BC4E0001B0B01 /* StreamListViewController.m */; };
 		619D739C1B4BC4E0001B0B01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619D739A1B4BC4E0001B0B01 /* Main.storyboard */; };
 		619D739E1B4BC4E0001B0B01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 619D739D1B4BC4E0001B0B01 /* Images.xcassets */; };
 		619D73A11B4BC4E0001B0B01 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 619D739F1B4BC4E0001B0B01 /* LaunchScreen.xib */; };
 		619D73AD1B4BC4E0001B0B01 /* Open_Tok_Video_Broadcasting_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 619D73AC1B4BC4E0001B0B01 /* Open_Tok_Video_Broadcasting_DemoTests.m */; };
+		619D73B71B4BFC06001B0B01 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619D73B61B4BFC06001B0B01 /* AudioToolbox.framework */; };
+		619D73B91B4BFC0B001B0B01 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619D73B81B4BFC0B001B0B01 /* AVFoundation.framework */; };
+		619D73BB1B4BFC10001B0B01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619D73BA1B4BFC10001B0B01 /* CoreGraphics.framework */; };
+		619D73BD1B4BFC16001B0B01 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619D73BC1B4BFC16001B0B01 /* CoreMedia.framework */; };
+		619D73BF1B4BFC1F001B0B01 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619D73BE1B4BFC1F001B0B01 /* CoreTelephony.framework */; };
+		619D73C11B4BFC26001B0B01 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619D73C01B4BFC26001B0B01 /* CoreVideo.framework */; };
+		619D73C31B4BFC2B001B0B01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619D73C21B4BFC2B001B0B01 /* Foundation.framework */; };
+		619D73C51B4BFC31001B0B01 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619D73C41B4BFC31001B0B01 /* GLKit.framework */; };
+		619D73C71B4BFC41001B0B01 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 619D73C61B4BFC41001B0B01 /* libc++.dylib */; };
+		619D73C91B4BFC4D001B0B01 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 619D73C81B4BFC4D001B0B01 /* libsqlite3.dylib */; };
+		619D73CB1B4BFC54001B0B01 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619D73CA1B4BFC54001B0B01 /* OpenGLES.framework */; };
+		619D73CD1B4BFC5A001B0B01 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619D73CC1B4BFC5A001B0B01 /* QuartzCore.framework */; };
+		619D73CF1B4BFC6C001B0B01 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619D73CE1B4BFC6C001B0B01 /* SystemConfiguration.framework */; };
+		619D73D11B4BFC73001B0B01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619D73D01B4BFC73001B0B01 /* UIKit.framework */; };
+		619D73D31B4BFC7A001B0B01 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619D73D21B4BFC7A001B0B01 /* VideoToolbox.framework */; };
+		AC3016DE1B59221F00692B0A /* screen_monitor.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3016DD1B59221F00692B0A /* screen_monitor.png */; };
+		ACC7C7FB1B54D30000B43B1E /* ModelServiceses.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC7C7FA1B54D30000B43B1E /* ModelServiceses.m */; };
+		ACC7C8091B54D58300B43B1E /* OTVBClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC7C8081B54D58300B43B1E /* OTVBClientManager.m */; };
+		ACC7C80E1B54D72200B43B1E /* ErrorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC7C80D1B54D72200B43B1E /* ErrorHelper.m */; };
+		ACC7C8101B54FD1700B43B1E /* Disconnect.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC7C80F1B54FD1700B43B1E /* Disconnect.png */; };
+		ACCE6A051B53CAA0006125D0 /* cam_flip.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCE6A041B53CAA0006125D0 /* cam_flip.png */; };
+		ACCE6A081B53D3D8006125D0 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE6A071B53D3D8006125D0 /* CameraViewController.m */; };
+		ACCE6A0D1B53F170006125D0 /* SingletonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE6A0C1B53F170006125D0 /* SingletonClass.m */; };
+		ACD1D0E01B57886700D6E04D /* StreamingDataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD1D0DE1B57886700D6E04D /* StreamingDataTableViewCell.m */; };
+		ACD1D0E11B57886700D6E04D /* StreamingDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACD1D0DF1B57886700D6E04D /* StreamingDataTableViewCell.xib */; };
+		ACD1D0E41B57C46100D6E04D /* TransmitAccessCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD1D0E31B57C46100D6E04D /* TransmitAccessCodeViewController.m */; };
+		EE8DBA7EA4B0EB8441FD065D /* libPods-Open Tok Video Broadcasting Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D6CAD2B670BF2D38C1EB6D /* libPods-Open Tok Video Broadcasting Demo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +55,58 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27D6CAD2B670BF2D38C1EB6D /* libPods-Open Tok Video Broadcasting Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Open Tok Video Broadcasting Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D5B1B26047C37CD7391686 /* Pods-Open Tok Video Broadcasting Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open Tok Video Broadcasting Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Open Tok Video Broadcasting Demo/Pods-Open Tok Video Broadcasting Demo.release.xcconfig"; sourceTree = "<group>"; };
+		6186EC831B62443F001AE2E4 /* CreateSessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateSessionViewController.h; path = ../CreateSessionViewController.h; sourceTree = "<group>"; };
+		6186EC841B62443F001AE2E4 /* CreateSessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateSessionViewController.m; path = ../CreateSessionViewController.m; sourceTree = "<group>"; };
 		619D738D1B4BC4E0001B0B01 /* Open Tok Video Broadcasting Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open Tok Video Broadcasting Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		619D73911B4BC4E0001B0B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		619D73921B4BC4E0001B0B01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		619D73941B4BC4E0001B0B01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		619D73951B4BC4E0001B0B01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		619D73971B4BC4E0001B0B01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		619D73981B4BC4E0001B0B01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		619D73971B4BC4E0001B0B01 /* StreamListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StreamListViewController.h; sourceTree = "<group>"; };
+		619D73981B4BC4E0001B0B01 /* StreamListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StreamListViewController.m; sourceTree = "<group>"; };
 		619D739B1B4BC4E0001B0B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		619D739D1B4BC4E0001B0B01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		619D73A01B4BC4E0001B0B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		619D73A61B4BC4E0001B0B01 /* Open Tok Video Broadcasting DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Open Tok Video Broadcasting DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		619D73AB1B4BC4E0001B0B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		619D73AC1B4BC4E0001B0B01 /* Open_Tok_Video_Broadcasting_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Open_Tok_Video_Broadcasting_DemoTests.m; sourceTree = "<group>"; };
+		619D73B61B4BFC06001B0B01 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		619D73B81B4BFC0B001B0B01 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		619D73BA1B4BFC10001B0B01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		619D73BC1B4BFC16001B0B01 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		619D73BE1B4BFC1F001B0B01 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		619D73C01B4BFC26001B0B01 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		619D73C21B4BFC2B001B0B01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		619D73C41B4BFC31001B0B01 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		619D73C61B4BFC41001B0B01 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		619D73C81B4BFC4D001B0B01 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		619D73CA1B4BFC54001B0B01 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		619D73CC1B4BFC5A001B0B01 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		619D73CE1B4BFC6C001B0B01 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		619D73D01B4BFC73001B0B01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		619D73D21B4BFC7A001B0B01 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		AC3016DD1B59221F00692B0A /* screen_monitor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen_monitor.png; sourceTree = "<group>"; };
+		ACC7C7F91B54D30000B43B1E /* ModelServiceses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelServiceses.h; sourceTree = "<group>"; };
+		ACC7C7FA1B54D30000B43B1E /* ModelServiceses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelServiceses.m; sourceTree = "<group>"; };
+		ACC7C8071B54D58300B43B1E /* OTVBClientManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTVBClientManager.h; sourceTree = "<group>"; };
+		ACC7C8081B54D58300B43B1E /* OTVBClientManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTVBClientManager.m; sourceTree = "<group>"; };
+		ACC7C80A1B54D67600B43B1E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		ACC7C80C1B54D72200B43B1E /* ErrorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorHelper.h; sourceTree = "<group>"; };
+		ACC7C80D1B54D72200B43B1E /* ErrorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorHelper.m; sourceTree = "<group>"; };
+		ACC7C80F1B54FD1700B43B1E /* Disconnect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Disconnect.png; path = ../Disconnect.png; sourceTree = "<group>"; };
+		ACCE6A041B53CAA0006125D0 /* cam_flip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cam_flip.png; path = ../cam_flip.png; sourceTree = "<group>"; };
+		ACCE6A061B53D3D8006125D0 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraViewController.h; path = ../CameraViewController.h; sourceTree = "<group>"; };
+		ACCE6A071B53D3D8006125D0 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraViewController.m; path = ../CameraViewController.m; sourceTree = "<group>"; };
+		ACCE6A0B1B53F170006125D0 /* SingletonClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonClass.h; sourceTree = "<group>"; };
+		ACCE6A0C1B53F170006125D0 /* SingletonClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonClass.m; sourceTree = "<group>"; };
+		ACD1D0DD1B57886700D6E04D /* StreamingDataTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamingDataTableViewCell.h; sourceTree = "<group>"; };
+		ACD1D0DE1B57886700D6E04D /* StreamingDataTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamingDataTableViewCell.m; sourceTree = "<group>"; };
+		ACD1D0DF1B57886700D6E04D /* StreamingDataTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StreamingDataTableViewCell.xib; sourceTree = "<group>"; };
+		ACD1D0E21B57C46100D6E04D /* TransmitAccessCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransmitAccessCodeViewController.h; path = ../TransmitAccessCodeViewController.h; sourceTree = "<group>"; };
+		ACD1D0E31B57C46100D6E04D /* TransmitAccessCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransmitAccessCodeViewController.m; path = ../TransmitAccessCodeViewController.m; sourceTree = "<group>"; };
+		B51339CD6C3658EB4E12A9E4 /* Pods-Open Tok Video Broadcasting Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open Tok Video Broadcasting Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Open Tok Video Broadcasting Demo/Pods-Open Tok Video Broadcasting Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +114,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				619D73D31B4BFC7A001B0B01 /* VideoToolbox.framework in Frameworks */,
+				619D73D11B4BFC73001B0B01 /* UIKit.framework in Frameworks */,
+				619D73CF1B4BFC6C001B0B01 /* SystemConfiguration.framework in Frameworks */,
+				619D73CD1B4BFC5A001B0B01 /* QuartzCore.framework in Frameworks */,
+				619D73CB1B4BFC54001B0B01 /* OpenGLES.framework in Frameworks */,
+				619D73C91B4BFC4D001B0B01 /* libsqlite3.dylib in Frameworks */,
+				619D73C71B4BFC41001B0B01 /* libc++.dylib in Frameworks */,
+				619D73C51B4BFC31001B0B01 /* GLKit.framework in Frameworks */,
+				619D73C31B4BFC2B001B0B01 /* Foundation.framework in Frameworks */,
+				619D73C11B4BFC26001B0B01 /* CoreVideo.framework in Frameworks */,
+				619D73BF1B4BFC1F001B0B01 /* CoreTelephony.framework in Frameworks */,
+				619D73BD1B4BFC16001B0B01 /* CoreMedia.framework in Frameworks */,
+				619D73BB1B4BFC10001B0B01 /* CoreGraphics.framework in Frameworks */,
+				619D73B91B4BFC0B001B0B01 /* AVFoundation.framework in Frameworks */,
+				619D73B71B4BFC06001B0B01 /* AudioToolbox.framework in Frameworks */,
+				EE8DBA7EA4B0EB8441FD065D /* libPods-Open Tok Video Broadcasting Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +143,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06B027F9921E0FC575B6EF75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B51339CD6C3658EB4E12A9E4 /* Pods-Open Tok Video Broadcasting Demo.debug.xcconfig */,
+				46D5B1B26047C37CD7391686 /* Pods-Open Tok Video Broadcasting Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		619D73841B4BC4E0001B0B01 = {
 			isa = PBXGroup;
 			children = (
+				ACCE69F71B53A645006125D0 /* Singleton Class */,
 				619D738F1B4BC4E0001B0B01 /* Open Tok Video Broadcasting Demo */,
 				619D73A91B4BC4E0001B0B01 /* Open Tok Video Broadcasting DemoTests */,
 				619D738E1B4BC4E0001B0B01 /* Products */,
+				06B027F9921E0FC575B6EF75 /* Pods */,
+				BDBC283478A8700C74E6F3C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +176,18 @@
 		619D738F1B4BC4E0001B0B01 /* Open Tok Video Broadcasting Demo */ = {
 			isa = PBXGroup;
 			children = (
+				ACD1D0D71B57809300D6E04D /* StreamingTableViewCell */,
 				619D73941B4BC4E0001B0B01 /* AppDelegate.h */,
 				619D73951B4BC4E0001B0B01 /* AppDelegate.m */,
-				619D73971B4BC4E0001B0B01 /* ViewController.h */,
-				619D73981B4BC4E0001B0B01 /* ViewController.m */,
+				6186EC831B62443F001AE2E4 /* CreateSessionViewController.h */,
+				6186EC841B62443F001AE2E4 /* CreateSessionViewController.m */,
+				ACD1D0E21B57C46100D6E04D /* TransmitAccessCodeViewController.h */,
+				ACD1D0E31B57C46100D6E04D /* TransmitAccessCodeViewController.m */,
+				619D73971B4BC4E0001B0B01 /* StreamListViewController.h */,
+				619D73981B4BC4E0001B0B01 /* StreamListViewController.m */,
+				ACCE6A061B53D3D8006125D0 /* CameraViewController.h */,
+				ACCE6A071B53D3D8006125D0 /* CameraViewController.m */,
+				ACC7C7F71B54D1F900B43B1E /* Network Helper */,
 				619D739A1B4BC4E0001B0B01 /* Main.storyboard */,
 				619D739D1B4BC4E0001B0B01 /* Images.xcassets */,
 				619D739F1B4BC4E0001B0B01 /* LaunchScreen.xib */,
@@ -96,6 +199,8 @@
 		619D73901B4BC4E0001B0B01 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ACC7C80A1B54D67600B43B1E /* PrefixHeader.pch */,
+				ACC7C8111B551D8C00B43B1E /* Images */,
 				619D73911B4BC4E0001B0B01 /* Info.plist */,
 				619D73921B4BC4E0001B0B01 /* main.m */,
 			);
@@ -119,6 +224,95 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ACC7C7F71B54D1F900B43B1E /* Network Helper */ = {
+			isa = PBXGroup;
+			children = (
+				ACC7C80B1B54D70600B43B1E /* error Helper */,
+				ACC7C8061B54D56000B43B1E /* Helper Classes */,
+				ACC7C7F81B54D2D100B43B1E /* Model Services */,
+			);
+			name = "Network Helper";
+			sourceTree = "<group>";
+		};
+		ACC7C7F81B54D2D100B43B1E /* Model Services */ = {
+			isa = PBXGroup;
+			children = (
+				ACC7C7F91B54D30000B43B1E /* ModelServiceses.h */,
+				ACC7C7FA1B54D30000B43B1E /* ModelServiceses.m */,
+			);
+			name = "Model Services";
+			sourceTree = "<group>";
+		};
+		ACC7C8061B54D56000B43B1E /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ACC7C8071B54D58300B43B1E /* OTVBClientManager.h */,
+				ACC7C8081B54D58300B43B1E /* OTVBClientManager.m */,
+			);
+			name = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		ACC7C80B1B54D70600B43B1E /* error Helper */ = {
+			isa = PBXGroup;
+			children = (
+				ACC7C80C1B54D72200B43B1E /* ErrorHelper.h */,
+				ACC7C80D1B54D72200B43B1E /* ErrorHelper.m */,
+			);
+			name = "error Helper";
+			sourceTree = "<group>";
+		};
+		ACC7C8111B551D8C00B43B1E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AC3016DD1B59221F00692B0A /* screen_monitor.png */,
+				ACC7C80F1B54FD1700B43B1E /* Disconnect.png */,
+				ACCE6A041B53CAA0006125D0 /* cam_flip.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		ACCE69F71B53A645006125D0 /* Singleton Class */ = {
+			isa = PBXGroup;
+			children = (
+				ACCE6A0B1B53F170006125D0 /* SingletonClass.h */,
+				ACCE6A0C1B53F170006125D0 /* SingletonClass.m */,
+			);
+			name = "Singleton Class";
+			sourceTree = "<group>";
+		};
+		ACD1D0D71B57809300D6E04D /* StreamingTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				ACD1D0DD1B57886700D6E04D /* StreamingDataTableViewCell.h */,
+				ACD1D0DE1B57886700D6E04D /* StreamingDataTableViewCell.m */,
+				ACD1D0DF1B57886700D6E04D /* StreamingDataTableViewCell.xib */,
+			);
+			name = StreamingTableViewCell;
+			sourceTree = "<group>";
+		};
+		BDBC283478A8700C74E6F3C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				619D73D21B4BFC7A001B0B01 /* VideoToolbox.framework */,
+				619D73D01B4BFC73001B0B01 /* UIKit.framework */,
+				619D73CE1B4BFC6C001B0B01 /* SystemConfiguration.framework */,
+				619D73CC1B4BFC5A001B0B01 /* QuartzCore.framework */,
+				619D73CA1B4BFC54001B0B01 /* OpenGLES.framework */,
+				619D73C81B4BFC4D001B0B01 /* libsqlite3.dylib */,
+				619D73C61B4BFC41001B0B01 /* libc++.dylib */,
+				619D73C41B4BFC31001B0B01 /* GLKit.framework */,
+				619D73C21B4BFC2B001B0B01 /* Foundation.framework */,
+				619D73C01B4BFC26001B0B01 /* CoreVideo.framework */,
+				619D73BE1B4BFC1F001B0B01 /* CoreTelephony.framework */,
+				619D73BC1B4BFC16001B0B01 /* CoreMedia.framework */,
+				619D73BA1B4BFC10001B0B01 /* CoreGraphics.framework */,
+				619D73B81B4BFC0B001B0B01 /* AVFoundation.framework */,
+				619D73B61B4BFC06001B0B01 /* AudioToolbox.framework */,
+				27D6CAD2B670BF2D38C1EB6D /* libPods-Open Tok Video Broadcasting Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +320,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 619D73B01B4BC4E0001B0B01 /* Build configuration list for PBXNativeTarget "Open Tok Video Broadcasting Demo" */;
 			buildPhases = (
+				44459C8985D536E33BAB900A /* Check Pods Manifest.lock */,
 				619D73891B4BC4E0001B0B01 /* Sources */,
 				619D738A1B4BC4E0001B0B01 /* Frameworks */,
 				619D738B1B4BC4E0001B0B01 /* Resources */,
+				A4D291BE563379643BEA65BB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,8 +395,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACD1D0E11B57886700D6E04D /* StreamingDataTableViewCell.xib in Resources */,
 				619D739C1B4BC4E0001B0B01 /* Main.storyboard in Resources */,
 				619D73A11B4BC4E0001B0B01 /* LaunchScreen.xib in Resources */,
+				ACC7C8101B54FD1700B43B1E /* Disconnect.png in Resources */,
+				AC3016DE1B59221F00692B0A /* screen_monitor.png in Resources */,
+				ACCE6A051B53CAA0006125D0 /* cam_flip.png in Resources */,
 				619D739E1B4BC4E0001B0B01 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,13 +414,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		44459C8985D536E33BAB900A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D291BE563379643BEA65BB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Open Tok Video Broadcasting Demo/Pods-Open Tok Video Broadcasting Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		619D73891B4BC4E0001B0B01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				619D73991B4BC4E0001B0B01 /* ViewController.m in Sources */,
+				ACCE6A081B53D3D8006125D0 /* CameraViewController.m in Sources */,
+				ACC7C7FB1B54D30000B43B1E /* ModelServiceses.m in Sources */,
+				ACD1D0E01B57886700D6E04D /* StreamingDataTableViewCell.m in Sources */,
+				6186EC851B62443F001AE2E4 /* CreateSessionViewController.m in Sources */,
+				ACD1D0E41B57C46100D6E04D /* TransmitAccessCodeViewController.m in Sources */,
+				619D73991B4BC4E0001B0B01 /* StreamListViewController.m in Sources */,
+				ACC7C8091B54D58300B43B1E /* OTVBClientManager.m in Sources */,
 				619D73961B4BC4E0001B0B01 /* AppDelegate.m in Sources */,
+				ACCE6A0D1B53F170006125D0 /* SingletonClass.m in Sources */,
+				ACC7C80E1B54D72200B43B1E /* ErrorHelper.m in Sources */,
 				619D73931B4BC4E0001B0B01 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,21 +586,31 @@
 		};
 		619D73B11B4BC4E0001B0B01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B51339CD6C3658EB4E12A9E4 /* Pods-Open Tok Video Broadcasting Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Billy Canu (352SB5CW9Q)";
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = "Open Tok Video Broadcasting Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1c8676cb-9756-4276-9c01-1866df9b4071";
 			};
 			name = Debug;
 		};
 		619D73B21B4BC4E0001B0B01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46D5B1B26047C37CD7391686 /* Pods-Open Tok Video Broadcasting Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Billy Canu (352SB5CW9Q)";
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = "Open Tok Video Broadcasting Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1c8676cb-9756-4276-9c01-1866df9b4071";
 			};
 			name = Release;
 		};
@@ -416,6 +667,7 @@
 				619D73B21B4BC4E0001B0B01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		619D73B31B4BC4E0001B0B01 /* Build configuration list for PBXNativeTarget "Open Tok Video Broadcasting DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +676,7 @@
 				619D73B51B4BC4E0001B0B01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
